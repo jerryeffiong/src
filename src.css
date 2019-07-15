@@ -1,0 +1,164 @@
+#src {
+    padding-bottom: 8px;
+}
+#header{
+    
+    height: 45vh;
+    width: 100%;
+    
+}
+#links{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: dimgray;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    
+}
+#link a {
+    display:block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    right: 5px;
+    
+}
+#link a:hover {
+    display:block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: brown;
+    right: 5px;
+}
+#link{
+    float: right;
+}
+#kaaf{
+    margin-left: 40%;
+    margin-top: 20%;
+    
+}
+#src{
+    margin-left:2%;
+}
+#srctext{
+    margin-top: 5px;
+    font-size: 65px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 5px black, 0px 0px 3px red;
+}
+#imgbk{
+    width: 100%;
+    object-fit: scale-down;
+}
+#event1{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+}
+#event2{
+    height: 400px;
+    width: 75%;
+    background-color: dimgray;
+    margin-left: 25%;
+}
+#event3{
+    height: 400px;
+    width: 66.6%;
+    background-color: white;
+    margin-left: 33.3%;
+}
+#event4{
+    height: 400px;
+    width: 50%;
+    background-color: dimgray;
+    margin-left: 50%;
+}
+#eventshead{
+    font-size: 65px;
+    padding: 41px;
+}
+#nursing{
+    transform: scale(0.2);
+}
+#event{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: dimgray;
+    width: 100%;
+    overflow: hidden;
+    height: 40%;
+}
+#event a {
+    display:block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    right: 5px;
+    
+}
+#events{
+    float: left;
+    padding: 15% 7%;
+}
+
+#bkg{
+    background-image: url(SRC/images/FB_IMG_1562589888425.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#srclogo{
+    margin-right: 10px;
+}
+#profilepic{
+    transform: scale(0.8);
+}
+#copy{
+    padding: 10px;
+}
+#mylogo{
+    height: 20%;
+    width: 20%;
+    margin-left: 100px;
+    padding: 6px 60px 60px 60px;
+}
+#powered{
+    margin-left:100px;
+    margin-top:50px;
+    font-family: cursive;
+    
+}
+
+@media (max-width: 575.98px){
+    #srctext{
+        margin-top: 150px;
+        font-size: 50px;
+        text-shadow: 1px 1px 5px black, 0px 0px 3px red;
+    }
+    #kaaf{
+    margin-left: 40%;
+    margin-top: 30%;
+        transform: scale(1.5);
+    
+}
+    #srclabel{
+        font-size: 18px;
+    }
+    #events{
+        float: left;
+        padding: 15% 45%;
+    }
+    #mylogo{
+    height:20%;
+    width: 20%;
+    margin-left: 170px;
+    padding: 6px 6px 6px 6px;
+}
+}
